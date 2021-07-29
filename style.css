@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    max-width: 300px;
+    margin: 250px auto;
+    background-image: url("img/fondo.jpg") ;
+  }
+  
+  .title {
+    font-family: Gill Sans Extrabold;
+    padding: 1px;
+    font-size: 50px;
+    align-self: center;  /* alinear elemento al centro en altura */
+    text-align: center;  /* alinear texto al centro en ancho */
+  }
+  .divisa {
+    display: grid;                    /* cuadrícula */
+    grid-template-columns: 50% 50%;   /* 2 columnas iguales */
+    margin-bottom: 15px;
+    background: rgb(37, 209, 109); 
+    color: white;
+  }
+  
+  .nombre, .valor{
+    padding: 5px;
+    font-size: 16px;
+    align-self: center; 
+    text-align: center;  /* alinear texto al centro en ancho */
+  }
